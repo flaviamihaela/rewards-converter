@@ -12,13 +12,13 @@ RewardValueTests Class - Unit tests for validating the conversion logic.
 
 ## Features
 
-Convert cash value to airline miles.
+- Convert cash value to airline miles.
 
-Convert miles to cash value.
+- Convert miles to cash value.
 
-User-friendly command-line interface.
+- User-friendly command-line interface.
 
-Unit tests to ensure accuracy of conversions.
+- Unit tests to ensure accuracy of conversions.
 
 ## Files
 
@@ -42,11 +42,11 @@ This is the main class that interacts with the user through the command line.
 
 ### Flow:
 
-Prompts the user to enter a cash value.
+- Prompts the user to enter a cash value.
 
-Converts the cash to miles using the RewardValue class.
+- Converts the cash to miles using the RewardValue class.
 
-Displays the equivalent miles.
+- Displays the equivalent miles.
 
 ### 3. RewardValueTests.java
 
@@ -66,19 +66,19 @@ convert_from_miles_to_cash() - Validates miles-to-cash conversion.
 
 ### Running the Application
 
-Compile the Java files:
+- Compile the Java files:
 
 javac RewardValue.java RewardsConverter.java
 
-Run the program:
+- Run the program:
 
 java RewardsConverter
 
-Enter a cash value to see its miles equivalent.
+- Enter a cash value to see its miles equivalent.
 
 ### Running Tests
 
-Ensure you have JUnit 5 installed, then run:
+- Ensure you have JUnit 5 installed, then run:
 
 mvn test
 
@@ -90,6 +90,6 @@ Cash to Miles: milesValue = cashValue / 0.0035
 
 ## Dependencies
 
-Java 8 or higher
+- Java 8 or higher
 
-JUnit 5 for testing
+- JUnit 5 for testing
