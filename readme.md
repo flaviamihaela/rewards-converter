@@ -4,11 +4,11 @@
 
 The Rewards Converter project is a simple self-contained Java application that converts credit card reward points between cash and airline miles. It consists of three main components:
 
-RewardValue Class - Handles conversion between cash and miles.
+`RewardValue Class` - Handles conversion between cash and miles.
 
-RewardsConverter Class - Provides a command-line interface for user input and conversion.
+`RewardsConverter Class` - Provides a command-line interface for user input and conversion.
 
-RewardValueTests Class - Unit tests for validating the conversion logic.
+`RewardValueTests Class` - Unit tests for validating the conversion logic.
 
 ## Features
 
@@ -28,13 +28,13 @@ This class represents the conversion between cash and miles.
 
 ### Methods:
 
-- RewardValue(double cashValue) - Constructor that initializes with cash value.
+- `RewardValue(double cashValue)` - Constructor that initializes with cash value.
 
-- RewardValue(int milesValue) - Constructor that initializes with miles value.
+- `RewardValue(int milesValue)` - Constructor that initializes with miles value.
 
-- getCashValue() - Returns the cash equivalent.
+- `getCashValue()` - Returns the cash equivalent.
 
-- getMilesValue() - Returns the miles equivalent.
+- `getMilesValue()` - Returns the miles equivalent.
 
 ### 2. RewardsConverter.java
 
@@ -54,13 +54,13 @@ This file contains unit tests to verify the correctness of conversion logic usin
 
 ### Test Cases:
 
-- create_with_cash_value() - Checks if cash value is correctly stored.
+- `create_with_cash_value()` - Checks if cash value is correctly stored.
 
-- create_with_miles_value() - Checks if miles value is correctly stored.
+- `create_with_miles_value()` - Checks if miles value is correctly stored.
 
-- convert_from_cash_to_miles() - Validates cash-to-miles conversion.
+- `convert_from_cash_to_miles()` - Validates cash-to-miles conversion.
 
-- convert_from_miles_to_cash() - Validates miles-to-cash conversion.
+- `convert_from_miles_to_cash()` - Validates miles-to-cash conversion.
 
 ## Usage
 
@@ -68,11 +68,15 @@ This file contains unit tests to verify the correctness of conversion logic usin
 
 - Compile the Java files:
 
+```sh
 javac RewardValue.java RewardsConverter.java
+```
 
 - Run the program:
 
+```sh
 java RewardsConverter
+```
 
 - Enter a cash value to see its miles equivalent.
 
@@ -80,13 +84,15 @@ java RewardsConverter
 
 - Ensure you have JUnit 5 installed, then run:
 
+```sh
 mvn test
+```
 
 ## Conversion Formula
 
-Miles to Cash: cashValue = milesValue * 0.0035
+Miles to Cash: cashValue = `milesValue * 0.0035`
 
-Cash to Miles: milesValue = cashValue / 0.0035
+Cash to Miles: milesValue = `cashValue / 0.0035`
 
 ## Dependencies
 
