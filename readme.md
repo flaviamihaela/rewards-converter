@@ -22,7 +22,7 @@ Unit tests to ensure accuracy of conversions.
 
 ## Files
 
-1. RewardValue.java
+### 1. RewardValue.java
 
 This class represents the conversion between cash and miles.
 
@@ -36,7 +36,7 @@ getCashValue() - Returns the cash equivalent.
 
 getMilesValue() - Returns the miles equivalent.
 
-2. RewardsConverter.java
+### 2. RewardsConverter.java
 
 This is the main class that interacts with the user through the command line.
 
@@ -48,7 +48,7 @@ Converts the cash to miles using the RewardValue class.
 
 Displays the equivalent miles.
 
-3. RewardValueTests.java
+### 3. RewardValueTests.java
 
 This file contains unit tests to verify the correctness of conversion logic using JUnit 5.
 
