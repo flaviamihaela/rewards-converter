@@ -28,13 +28,13 @@ This class represents the conversion between cash and miles.
 
 ### Methods:
 
-RewardValue(double cashValue) - Constructor that initializes with cash value.
+- RewardValue(double cashValue) - Constructor that initializes with cash value.
 
-RewardValue(int milesValue) - Constructor that initializes with miles value.
+- RewardValue(int milesValue) - Constructor that initializes with miles value.
 
-getCashValue() - Returns the cash equivalent.
+- getCashValue() - Returns the cash equivalent.
 
-getMilesValue() - Returns the miles equivalent.
+- getMilesValue() - Returns the miles equivalent.
 
 ### 2. RewardsConverter.java
 
@@ -54,13 +54,13 @@ This file contains unit tests to verify the correctness of conversion logic usin
 
 ### Test Cases:
 
-create_with_cash_value() - Checks if cash value is correctly stored.
+- create_with_cash_value() - Checks if cash value is correctly stored.
 
-create_with_miles_value() - Checks if miles value is correctly stored.
+- create_with_miles_value() - Checks if miles value is correctly stored.
 
-convert_from_cash_to_miles() - Validates cash-to-miles conversion.
+- convert_from_cash_to_miles() - Validates cash-to-miles conversion.
 
-convert_from_miles_to_cash() - Validates miles-to-cash conversion.
+- convert_from_miles_to_cash() - Validates miles-to-cash conversion.
 
 ## Usage
 
